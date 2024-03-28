@@ -65,3 +65,40 @@
 #board button::before {
   content: "";
 }
+
+.section-tictac{
+  background-color: aliceblue;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.top{
+  background-color: white;
+  width: 35vw;
+  aspect-ratio: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.boxed{
+  width: 30%;
+  border-radius: 24px;
+  height: 30%;
+  background-color: plum;
+  transition: 0.3s;
+}
+
+boxed:hover{
+  background-color: #fbc531;
+  cursor: pointer;
+}
+
+.boxed{
+  font-size: 50px;
+}

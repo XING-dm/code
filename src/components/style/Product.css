@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.search{
+    background-color: aquamarine;
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search label input{
+    padding: 8px 250px;
+    border: none;
+    border-radius: 35px;
+    margin: 5px;
+}
+.container .dup-side{
+    display: flex;
+    justify-content: space-around;
+    height: 650px;  
+    align-items: center;
+}
+
+.search label button{
+    padding: 10px;
+    border: none;
+    background-color: #5e28ff;
+    border-radius: 10px;
+}

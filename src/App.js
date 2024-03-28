@@ -1,10 +1,10 @@
 import React from 'react'
-import FastHand from './components/FastHand'
-import TicTac from './components/TicTac'
+import Product from './components/Product'
+
 function App() {
   return (
     <div>
-      <FastHand />
+      <Product />
     </div>
   )
 }
