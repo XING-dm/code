@@ -6,7 +6,7 @@
 }
 
 .search{
-    background-color: aquamarine;
+    background-color: rgb(129, 127, 255);
     height: 50px;
     width: auto;
     display: flex;
@@ -25,10 +25,37 @@
     height: 650px;  
     align-items: center;
 }
+.container.dark {
+    background-color: #333;
+    color: #fff;
+  }
 
 .search label button{
     padding: 10px;
     border: none;
     background-color: #5e28ff;
     border-radius: 10px;
+}
+.container .dup-side .side-1 img{
+    width: 100%;
+    height: auto            ;
+}
+
+.container .dark-con button{
+    border: none;
+    padding: 15px;
+    margin: 5px;
+    background-color: rgb(163, 250, 41);
+    border-radius: 10px;
+}
+
+.container .side-1 img{
+    width: 100%;
+    height: auto;
+}
+
+.container .side-1{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
 }

@@ -1,10 +1,10 @@
 import React from 'react'
-import Product from './components/Product'
+import Anime_Quiz from './components/not_used/Anime_Quiz'
 
 function App() {
   return (
     <div>
-      <Product />
+      <Anime_Quiz />
     </div>
   )
 }

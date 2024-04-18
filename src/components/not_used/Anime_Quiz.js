@@ -1,4 +1,4 @@
-import './style/Anime_Quiz.css'
+import '../style/Anime_Quiz.css'
 import React, { useState } from "react";
 import questions from './Anime_Api.js';
 
@@ -48,7 +48,7 @@ function Anime_Quiz() {
           </h2>
           <button onClick={() => restartGame()}>Restart game</button>
         </div>
-      ) : (
+      ) : ( 
         /* 5. Quiz контент класс   */
         <div className="question-card">
           {/* Одоо байрлаж буй асуулт  */}
